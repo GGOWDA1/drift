@@ -1,8 +1,8 @@
 name: Terraform Drift Detection
 
 on:
-  schedule:
-    - cron: "*/1 * * * *" # Runs every minute
+  # schedule:
+  #   - cron: "*/1 * * * *" # Runs every minute - DISABLED
     # - cron: "0 8 * * *" # Runs daily at 8am UTC (comment out can use used in place of minute schedule)
   workflow_dispatch: # Allows manual triggering
 
